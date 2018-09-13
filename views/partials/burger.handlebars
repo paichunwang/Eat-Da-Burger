@@ -1,0 +1,21 @@
+{{#if devoured}}
+<div class="justified">
+    <li><div></div></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li><div>{{burger_name}}</div></li>
+</div>
+{{else}}
+<div class="justified">
+    <li><div>{{burger_name}}</div></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li><div></div></li>
+</div>
+{{/if}}
+
+{{!-- {{#if devoured}}
+    <div class="justified">
+        <li id={{id}}></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Devour</button><li class="postDev">{{id}}.
+            {{burger_name}}
+        </li>
+    </div>
+    {{else}}
+    <div class="justified">
+        <li id="id">{{id}}. {{burger_name}}</li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Devour</button><li></li>
+    </div>
+    {{/if}} --}}
