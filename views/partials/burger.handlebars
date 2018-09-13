@@ -1,10 +1,10 @@
 {{#if devoured}}
 <div class="justified">
-    <li><div></div></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li><div>{{burger_name}}</div></li>
+    <li class="hide"><div></div></li><button class="disable" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li><div>{{burger_name}}</div></li>
 </div>
 {{else}}
 <div class="justified">
-    <li><div>{{burger_name}}</div></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li><div></div></li>
+    <li><div>{{burger_name}}</div></li><button class="devourIt" id="{{id}}" data-id="{{id}}" data-devoured="{{devoured}}">Eat It</button><li class="hide"><div></div></li>
 </div>
 {{/if}}
 
