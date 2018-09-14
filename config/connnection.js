@@ -1,8 +1,6 @@
 let mysql = require('mysql');
 let key = require('../key');
 
-console.log(key.clearDB.host);
-
 let connection = mysql.createConnection({
     host: key.clearDB.host,
     port: 3306,
