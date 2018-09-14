@@ -1,11 +1,14 @@
 let mysql = require('mysql');
+let key = require('../key');
+
+console.log(key.clearDB.host);
 
 let connection = mysql.createConnection({
-    host: "localhost",
+    host: key.clearDB.host,
     port: 3306,
-    user: "root",
-    password: "",
-    database: "burger_db"
+    user:  key.clearDB.username,
+    password:  key.clearDB.password,
+    database: key.clearDB.database
 });
 
 connection.connect((err)=>{
