@@ -1,4 +1,5 @@
 console.log("Connected Key.js");
+console.log("Testing upload running");
 
 require("dotenv").config({ path: "./.env" });
 
