@@ -10,6 +10,7 @@ Download the repository using your preferred method:
 Option #1 (SSH): git@github.com:paichunwang/Eat-Da-Burger.git
 Option #2 (HTTPS): https://github.com/paichunwang/Eat-Da-Burger.git
 Option #3 (ZIP): https://github.com/paichunwang/Eat-Da-Burger/archive/master.zip
+```
 
 ## Prerequisites
 
